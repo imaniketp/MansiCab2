@@ -1,0 +1,92 @@
+.serv2Container{
+    /* height: 20%; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 4rem;
+}
+
+.serv2SliderTitle{
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
+}
+
+.serv2SliderTitle p{
+    font-size: 1rem;
+    font-weight: bold;
+    /* padding-bottom: 10px; */
+        /* border-bottom: 3px solid #7142ff; */
+    letter-spacing: 1.5px;
+}
+.serv2SliderTitle span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #7142ff;
+    letter-spacing: 1.5px;
+}
+
+
+.outerServ2Slider{
+    width: 80vw;
+}
+
+.mainServ2slider{
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.serv2slides{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 10%;
+}
+
+.serv2slides img{
+    width: 3rem;
+}
+
+.serv2slides h6{
+    font-weight: bolder;
+}
+.serv2slides p{
+    font-size: small;
+}
+.innerserv2slide{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.Serv2sliderControls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serv2siderbtn{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media all and (max-width:700px){
+    .serv2SliderTitle span{
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+        border-bottom: 3px solid #7142ff;
+    }
+    .serv2siderbtn{
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    
+}
