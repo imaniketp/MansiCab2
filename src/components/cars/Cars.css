@@ -48,6 +48,9 @@
   justify-content: center;
   width: 100%;
 }
+.carimgcol img{
+  width: 80%;
+}
 
 .carDivInactive {
   border: 0.1px solid gray;
